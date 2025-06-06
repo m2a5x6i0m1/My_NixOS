@@ -81,8 +81,24 @@ in {
 
       # Check about:support for extension/add-on ID strings.
       ExtensionSettings = {
+        # uBlock Origin
         "uBlock0@raymondhill.net" = {
           install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
+          installation_mode = "force_installed";
+        };
+        # Vimium
+        "{d7742d87-e61d-4b78-b8a1-b469842139fa}" = {
+          install_url = "https://addons.mozilla.org/firefox/downloads/latest/vimium-ff/latest.xpi";
+          installation_mode = "force_installed";
+        };
+        # Unhook - Remove YouTube Recommended & Shorts
+        "myallychou@gmail.com" = {
+          install_url = "https://addons.mozilla.org/firefox/downloads/latest/youtube-recommended-videos/latest.xpi";
+          installation_mode = "force_installed";
+        };
+        # Theme
+        "{81ca79d8-02b9-4394-a754-14f66a603e35}" = {
+          install_url = "https://addons.mozilla.org/firefox/downloads/latest/finnstheme/latest.xpi";
           installation_mode = "force_installed";
         };
       };
