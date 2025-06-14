@@ -11,6 +11,8 @@
     # Hyprland
     hyprsunset
     hyprshot
+    hyprpaper
+    hyprpolkitagent
 
     # Desktop apps
     telegram-desktop
