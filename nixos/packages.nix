@@ -6,6 +6,7 @@
     cliphist
     wev
     wofi
+    waypaper
 
     # Hyprland
     hyprsunset
@@ -16,7 +17,7 @@
     ghostty
     obsidian
     pwvucontrol
-    neovide
+    # neovide
     # gthumb
     # syncthing
     # spotify
@@ -39,8 +40,8 @@
     bat
     zoxide
     delta
+    dust
     # xh
-    # dust
     # ripgrep-all
 
     git
@@ -64,7 +65,6 @@
 
     # Formatters
     stylua
-    nixfmt-classic
     alejandra
     prettierd
 
