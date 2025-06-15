@@ -101,6 +101,11 @@ in {
           install_url = "https://addons.mozilla.org/firefox/downloads/latest/finnstheme/latest.xpi";
           installation_mode = "force_installed";
         };
+        # Dark Reader
+        "addon@darkreader.org" = {
+          install_url = "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi";
+          installation_mode = "force_installed";
+        };
       };
     };
   };
