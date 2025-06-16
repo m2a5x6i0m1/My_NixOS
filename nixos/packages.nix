@@ -19,7 +19,7 @@
     ghostty
     obsidian
     pwvucontrol
-    # neovide
+    neovide
     # gthumb
     # syncthing
     # spotify
