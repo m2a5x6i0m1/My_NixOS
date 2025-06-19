@@ -1,74 +1,73 @@
 {pkgs, ...}: {
   environment.systemPackages = with pkgs; [
     # Wayland
-    swaynotificationcenter
-    wl-clipboard
     cliphist
+    swaynotificationcenter
     wev
+    wl-clipboard
     wofi
-    waypaper
 
     # Hyprland
-    hyprsunset
-    hyprshot
     hyprpaper
     hyprpolkitagent
+    hyprshot
+    hyprsunset
 
     # Desktop apps
-    telegram-desktop
     ghostty
+    neovide
     obsidian
     pwvucontrol
-    neovide
+    telegram-desktop
+    waypaper
     # gthumb
-    # syncthing
-    # spotify
     # libreoffice
+    # spotify
+    # syncthing
 
     # Tui
+    fastfetch
+    htop
+    lazygit
+    nushell
     starship
     yazi
-    fastfetch
-    lazygit
-    htop
-    nushell
 
     # Cli tools
-    home-manager
-    uutils-coreutils-noprefix
-    ripgrep
-    fd
-    eza
+    # ripgrep-all
+    # xh
     bat
-    zoxide
+    brightnessctl
+    busybox
+    curl
     delta
     dust
-    # xh
-    # ripgrep-all
-
-    git
-    stow
-    curl
-    busybox
-    brightnessctl
-    imagemagick
+    eza
+    fd
     fzf
+    git
+    home-manager
+    imagemagick
+    ripgrep
+    stow
+    uutils-coreutils-noprefix
+    zoxide
 
     # Lsp
-    lua-language-server
     bash-language-server
     clang-tools
-    rust-analyzer
     harper
+    lua-language-server
     nixd
+    rust-analyzer
 
     # Debuggers
     lldb
 
     # Formatters
-    stylua
     alejandra
     prettierd
+    stylua
 
     # Compilers
     clang

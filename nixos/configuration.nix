@@ -1,6 +1,7 @@
 {...}: {
   imports = [
     ./hardware-configuration.nix
+    ./modules/programs/default.nix
     ./modules/default.nix
     ./packages.nix
   ];

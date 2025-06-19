@@ -8,7 +8,5 @@
     ./users.nix
     ./desktop.nix
     ./env.nix
-
-    ./firefox.nix
   ];
 }
