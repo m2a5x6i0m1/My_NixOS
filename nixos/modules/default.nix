@@ -4,6 +4,7 @@
     ./network.nix
     ./sound.nix
     ./bluetooth.nix
+    ./graphics.nix
 
     ./users.nix
     ./desktop.nix

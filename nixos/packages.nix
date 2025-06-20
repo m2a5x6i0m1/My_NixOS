@@ -25,6 +25,11 @@
     # spotify
     # syncthing
 
+    # For games, also see protondb for info on compatibility
+    lutris # game launcher
+    heroic # another game launcher but for gog releases
+    bottles # allows to run .exe files
+
     # Tui
     fastfetch
     htop
