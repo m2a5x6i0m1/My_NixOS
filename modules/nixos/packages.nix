@@ -14,11 +14,7 @@
     hyprsunset
 
     # Desktop apps
-    amberol
-    ghostty
-    gthumb
-    neovide
-    obsidian
+    kitty
     pwvucontrol
     telegram-desktop
     waypaper
