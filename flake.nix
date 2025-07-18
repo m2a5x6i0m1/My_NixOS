@@ -19,7 +19,7 @@
   }: {
     nixosConfigurations = {
       # Old Asus laptop
-      laptop = nixpkgs.lib.nixosSystem {
+      "myNixOS-laptop" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         specialArgs = {inherit inputs self;};
         modules = [
